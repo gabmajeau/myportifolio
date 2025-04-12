@@ -1,0 +1,70 @@
+* {
+  font-family: helvetica;
+  caret-color: transparent;
+}
+
+html {
+  scroll-behavior: smooth;
+  border: 3px aqua solid;
+  height: 99vh;
+}
+
+body {
+  background-color: #252525;
+  cursor: default;
+}
+
+h1 {
+  color: rgb(174, 199, 197);
+  margin: 15% 0 0 10%;
+  font-size: 800%;
+  transition-duration: 1.5s;
+}
+
+p {
+  color: rgb(174, 199, 197);
+  margin: 10% 5% -15% 10%;
+  font-size: 200%;
+  transition-duration: 1.5s;
+}
+
+.move:hover h1 {
+  color: aqua;
+  margin: 15% 0 0 14%;
+  transition: 0.9s;
+}
+
+.move:hover p {
+  color: aqua;
+  margin: 10% 0 -15% 11.5%;
+  transition: 0.9s;
+}
+
+a {
+  color: rgb(174, 199, 197);
+  margin: 100% 0 0 70%;
+  font-size: 300%;
+  text-decoration: none;
+  font-weight: bold;
+  transition-duration: 1.5s;
+}
+
+a:hover {
+  color: aqua;
+  margin: 100% 0 0 67%;
+  font-size: 300%;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.9s;
+}
+
+img {
+  margin-left: 20%;
+  opacity: 0.001;
+  transition-duration: 1s;
+}
+
+img:hover {
+  transition: 1.5s;
+  opacity: 1;
+}
