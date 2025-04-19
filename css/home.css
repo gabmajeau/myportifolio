@@ -68,3 +68,65 @@ img:hover {
   transition: 1.5s;
   opacity: 1;
 }
+
+@media screen and (max-width: 1020px) {
+  h1 {
+    color: rgb(174, 199, 197);
+    margin: 15% 0 20% 10%;
+    font-size: 300%;
+    transition-duration: 1.5s;
+  }
+
+  .move:hover h1 {
+    color: aqua;
+    margin: 15% 0 20% 10%;
+    font-size: 310%;
+    transition: 0.3s;
+  }
+
+  p {
+    color: rgb(174, 199, 197);
+    margin: 40% 5% -15% 10%;
+    font-size: 100%;
+    transition-duration: 1.5s;
+  }
+
+  .move:hover p {
+    color: aqua;
+    margin: 40% 5% -15% 10%;
+    font-size: 110%;
+    transition: 0.3s;
+  }
+
+  a {
+    color: rgb(174, 199, 197);
+    margin: 0 0 0 30%;
+    font-size: 150%;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 1.5s;
+  }
+
+  a:hover {
+    color: aqua;
+    margin: 0 0 0 30%;
+    font-size: 170%;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 1.5s;
+  }
+
+  img {
+    height: 180px;
+    width: 180px;
+    margin-top: 10%;
+    margin-left: 20%;
+    opacity: 0.001;
+    transition-duration: 1s;
+  }
+
+  img:hover {
+    transition: 1.5s;
+    opacity: 1;
+  }
+}
