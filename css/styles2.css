@@ -181,3 +181,174 @@ footer:hover {
   transition: 1s;
   color: rgb(0, 225, 255);
 }
+
+@media screen and (max-width: 1020px) {
+  .subtitle {
+    text-align: center;
+    color: aqua;
+    margin-top: 1%;
+    font-size: 100%;
+  }
+
+  h1 {
+    display: inline-block;
+    padding: 0.6rem;
+    text-align: center;
+    margin: none;
+    padding: none;
+  }
+
+  .divv {
+    margin: 0 0 0 0;
+    font-size: 190%;
+    text-align: center;
+  }
+
+  .um {
+    color: rgb(255, 255, 255);
+    font-size: 140%;
+    transition-duration: 7s;
+    margin-left: 15%;
+  }
+  .dois {
+    color: #ffffff;
+    font-size: 140%;
+    transition-duration: 7s;
+    margin-left: -4%;
+  }
+  .tres {
+    color: #ffffff;
+    font-size: 140%;
+    transition-duration: 7s;
+    margin-left: -4%;
+    margin-right: 15%;
+  }
+  .quatro {
+    color: #ffffff;
+    font-size: 140%;
+    transition-duration: 7s;
+    margin-left: -2%;
+  }
+  .cinco {
+    color: #ffffff;
+    font-size: 140%;
+    transition-duration: 7s;
+    margin-left: -2%;
+  }
+  .seis {
+    color: #ffffff;
+    font-size: 140%;
+    transition-duration: 7s;
+    margin-left: -2%;
+    margin-right: -10%;
+  }
+
+  .um:hover {
+    color: rgb(250, 69, 69);
+    font-size: 140%;
+    transition: 0.3s;
+  }
+  .dois:hover {
+    color: #ffe600;
+    font-size: 140%;
+    transition: 0.3s;
+  }
+  .tres:hover {
+    color: #8400ff;
+    font-size: 140%;
+    transition: 0.3s;
+  }
+  .quatro:hover {
+    color: #00aeff;
+    font-size: 140%;
+    transition: 0.3s;
+  }
+  .cinco:hover {
+    color: #00ff2a;
+    font-size: 140%;
+    transition: 0.3s;
+  }
+  .seis:hover {
+    color: #ff9900;
+    font-size: 140%;
+    transition: 0.3s;
+  }
+
+  .image {
+    width: 450px;
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-left: 8%;
+  }
+  .image img {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    transition: clip-path 2s ease-in-out;
+  }
+  .image img:hover {
+    clip-path: circle(0% at 50% 50%);
+  }
+  figcaption {
+    margin: -7% 0 5% 10%;
+    color: rgb(87, 87, 87);
+    font-size: 90%;
+    transition-duration: 10s;
+  }
+
+  .return {
+    margin: 10% 46.5% 2% 46.5%;
+    padding: 0.4rem;
+    font-size: 150%;
+    text-align: center;
+    background: linear-gradient(#252525, #464646, #252525);
+    border-radius: 8px;
+    border: 1px black solid;
+    transition-duration: 2s;
+  }
+
+  .return {
+    margin: 5% 40% 8% 40%;
+    font-size: 110%;
+    text-align: center;
+    background: linear-gradient(#252525, #464646, #252525);
+    border-radius: 8px;
+    border: 1px black solid;
+    transition-duration: 2s;
+  }
+
+  .return:hover {
+    border-radius: 8px;
+    border: 1px aqua solid;
+    color: aqua;
+  }
+
+  .return a {
+    text-decoration: none;
+    color: aqua;
+    transition-duration: 1s;
+  }
+
+  .ev {
+    color: #252525;
+    font-size: 0.1%;
+    margin-bottom: 2%;
+  }
+
+  footer {
+    margin: 1% 0 0 0;
+    border-top: 1px #585858 solid;
+    text-align: center;
+    color: aqua;
+    transition-duration: 3s;
+  }
+
+  footer:hover {
+    border-top: 1px aqua solid;
+    transition: 1s;
+    color: rgb(0, 225, 255);
+  }
+}
+
