@@ -129,4 +129,7 @@ img:hover {
     transition: 1.5s;
     opacity: 1;
   }
+    html {
+    border: none;
+  }
 }
