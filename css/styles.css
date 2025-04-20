@@ -35,7 +35,7 @@ body {
   color: #474747;
 }
 
-.text2 :hover {
+.text2 {
   font-size: 0.1%;
   color: #474747;
   text-shadow: none;
@@ -406,6 +406,7 @@ footer:hover {
   }
 
   .text2 {
+    color: aqua;
     font-size: 150%;
     margin-top: -15%;
   }
